@@ -1,6 +1,6 @@
 # Annexe : Guide d'Installation de Fab-manager en Environnement de Développement avec Docker
 
-Ce document détaille les étapes nécessaires à la mise en place d'un environnement de développement pour Fab-manager en utilisant Docker et Docker Compose. Il est à noter que cette procédure est technique ; pour une utilisation en production sans modification du code source, la méthode d'installation en production est à privilégier.
+Ce document détaille les étapes nécessaires à la mise en place d'un environnement de développement pour Fab-manager en utilisant Docker et Docker Compose. 
 
 ## 1. Prérequis Généraux et Configuration Initiale
 
@@ -31,7 +31,7 @@ Avant de commencer, assurez-vous que votre système d'exploitation est compatibl
 6.  **Récupération du Projet Fab-manager :**
     Clonez le dépôt Git du projet (remplacez l'URL par celle de votre fork si applicable) :
     ```bash
-    git clone [https://github.com/TPS-Fabmanager/Fab-manager.git](https://github.com/TPS-Fabmanager/Fab-manager.git)
+    git clone https://github.com/TPS-Fabmanager/Fab-manager.git
     ```
 
 7.  **Mise en Place des Dépendances Docker :**
